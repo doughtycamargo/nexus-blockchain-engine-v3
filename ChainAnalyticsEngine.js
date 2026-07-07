@@ -12,6 +12,7 @@ class Analytics {
       (sum, block) => sum + (block.data?.length || 0),
       0
     );
+
   }
 
   getAverageBlockTime() {
